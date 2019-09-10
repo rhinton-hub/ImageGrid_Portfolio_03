@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+<title>CSS Image Hover Effect</title>
+</head>
+ 
+<style>
+ 
+body {
+margin: 0;
+padding: 0;
+background: #262626;
+font-family: sans-serif;
+}
+ 
+.container {
+width: 1056px;
+min-height: 512px;
+background: #fff;
+margin: 70px auto 0;
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+ 
+.box {
+position: relative;
+width: 256px;
+height: 256px;
+background: #A4A4A4;
+margin: 4px;
+box-sizing: border-box;
+display: inline-block;
+border: 1px solid #666;
+}
+
+.box:hover {
+border: 2px solid #777;
+}
+ 
+</style>
+ 
+<body>
+ 
+<div class="container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+</div>
+ 
+</body>
+ 
+</html>
